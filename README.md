@@ -1,7 +1,7 @@
-#Live link
+# Live link
 https://dental-care-a6972.web.app/home
 
-#About This project
+# About This project
 This is medical related website. Specifically a Dental Medical service website. Through this site , a patient easily will get an overall proper idea about a hospital. Which services are providing and which doctor are present and which technology they are using, what is the time schedule etc can be easily informed through this site for a normal user.
 
 Also people can book their Appointment through this site.
