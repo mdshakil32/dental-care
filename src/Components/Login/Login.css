@@ -1,0 +1,12 @@
+
+.login-firebase button{
+ background: none;
+ border: 0;
+ margin: 5px;
+}
+
+.login-firebase img{
+    max-width: 35px;
+    max-height: 35px;
+
+}

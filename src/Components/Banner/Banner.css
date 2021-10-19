@@ -1,0 +1,17 @@
+.carousel-item img{
+    max-height: 550px;
+}
+.banner-content{
+    left: 5%;
+    bottom: 5rem;
+}
+.hash-tag{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.226);
+    /* margin-bottom: 20px; */
+}
+.fs-40{
+    font-size: 70px;
+}

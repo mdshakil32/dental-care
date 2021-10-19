@@ -1,0 +1,9 @@
+.single-testimony{
+    box-shadow: 1px 15px 25px rgba(0, 0, 0, 0.123);
+}
+.single-testimony img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}

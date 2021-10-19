@@ -1,0 +1,16 @@
+.contact-card{
+    background-color: rgb(33, 186, 224);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+.contact-card-icon{
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 186, 224);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}

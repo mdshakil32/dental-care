@@ -1,23 +1,75 @@
-import logo from './logo.svg';
+
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
+import Appoinment from './Components/Appoinment/Appoinment';
+import AuthProvider from './Components/Context/AuthProvider';
+import Dentist from './Components/Dentist/Dentist';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
+import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
+import NotFound from './Components/NotFound/NotFound';
+import Register from './Components/Register/Register';
+import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
+import Services from './Components/Services/Services';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <AuthProvider>
+      <BrowserRouter>
+        <Header></Header>
+        <Switch>
+
+          <Route exact path="/">
+              <Home></Home>
+          </Route>
+          
+          <Route path="/home">
+              <Home></Home>
+          </Route>
+
+          <Route path="/services">
+              <Services></Services>
+          </Route>
+
+          <Route path="/dentist">
+              <Dentist></Dentist>
+          </Route>
+
+          <Route path="/testimonial">
+              <Testimonial></Testimonial>
+          </Route>
+
+          <Route path="/login">
+              <Login></Login>
+          </Route>
+
+          <Route path="/register">
+              <Register></Register>
+          </Route>
+
+          <PrivateRoute path="/appointment">
+              <Appoinment></Appoinment>
+          </PrivateRoute>
+
+          <PrivateRoute path="/serviceDetail/:serviceId">
+              <ServiceDetail></ServiceDetail>
+          </PrivateRoute>
+
+          <Route path="/*">
+              <NotFound></NotFound>
+          </Route>
+
+
+        </Switch>
+        <Footer></Footer>
+      </BrowserRouter>
+      
+      </AuthProvider>
     </div>
   );
 }

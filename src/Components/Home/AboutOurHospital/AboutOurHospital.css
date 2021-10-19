@@ -1,0 +1,32 @@
+.radius-50{
+    border-radius: 50%;
+}
+.bg-shadow-1{
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.212);
+}
+.about-hospital{
+    background: url("https://i.ibb.co/51WnPyD/about-2.jpg") no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.about-img-content{
+    max-width: 400px;
+    padding: 30px 20px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 10px;
+}
+.about-img-content i{
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .about-hospital{
+        display: none;
+    }
+    .about-img-content{
+      display: none;
+        
+    }
+ }

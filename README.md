@@ -1,3 +1,16 @@
+#Live link
+https://dental-care-a6972.web.app/home
+
+#About This project
+This is medical related website. Specifically a Dental Medical service website. Through this site , a patient easily will get an overall proper idea about a hospital. Which services are providing and which doctor are present and which technology they are using, what is the time schedule etc can be easily informed through this site for a normal user.
+
+Also people can book their Appointment through this site.
+
+#Components I have used
+React js, raw css, bootstrap framework,fontawsome icons etc..
+
+Responsive done by botstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

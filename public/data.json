@@ -1,0 +1,204 @@
+{
+    "services":[
+        {
+            "id":"service_1",
+            "name":"Quality Patients Care",
+            "image":"https://i.ibb.co/V06q5fn/dentist-office-550x500.jpg",
+            "describe":"We are use medication to help patients relax during dental procedures. It’s sometimes referred to as “sleep dentistry,” although that’s not entirely accurate. Patients are usually awake with the exception of those who are under general anesthesia.",
+            "icon":"<i class='fas fa-tooth'></i>"
+        },
+        {
+            "id":"service_2",
+            "name":"Experienced Dentist",
+            "image":"https://i.ibb.co/G24ZhCX/experience-dentist-550x500.jpg",
+            "describe":"Trusted results for Health Insurance Us. Check Visymo Search for the best results! Unlimited Access. 100% Secure. Always Facts. Privacy Friendly. The Best Resources. Results & Answers. Types: Best Results, Explore Now, New Sources, Best in Search.",
+            "icon":"<i class='fas fa-user-nurse'></i>"
+        },
+        {
+            "id":"service_3",
+            "name":"Quality Brackets",
+            "image":"https://i.ibb.co/XDBry4d/patient-care-550x500.jpg",
+            "describe":"If we take into account only the durability of the brackets, the kings of the comparison are the metal brackets , since these are practically unbreakable and require very little maintenance. This is one of the factors that makes metallic braces the most used in children's orthodontics.",
+            "icon":"<i class='fas fa-teeth'></i>"
+        },
+        {
+            "id":"service_4",
+            "name":"Certified Dentists",
+            "image":"https://i.ibb.co/pZp87Vs/quality-dentist-550x500.jpg",
+            "describe":"Texas Dental - Quick And Easily Found At Asksly! Many Products. Easy Acces. Quick Results. Compare Products. Search and Discover. Find Easily. Types: Products Online, Instant Results, Big Variaty, 24/7 Accessible.",
+            "icon":"<i class='fas fa-stethoscope'></i>"
+        },
+
+        {
+            "id":"service_5",
+            "name":"Experience",
+            "image":"https://i.ibb.co/3T0NtJ8/ser-1-550x500-1.jpg",
+            "describe":"Hospital manager positions include titles such as hospital administrators, patient care managers, and practice managers. They typically manage an entire facility, a medical practice group of physicians, or a specific clinical area or department such as finance, materials management, or patient care services.1",
+            "icon":"<i class='fas fa-pump-medical'></i>"
+        },
+        {
+            "id":"service_6",
+            "name":"Patient Care",
+            "image":"https://i.ibb.co/FYNyh4b/ser-1-550x500.jpg",
+            "describe":"Patient care refers to the prevention, treatment, and management of illness and the preservation of physical and mental well-being through services offered by health professionals.1 Patient care consists of services rendered by health professionals (or non-professionals under their supervision) for the benefit of patients.2 A patient is a user of health care services whether he or she is healthy or sick",
+            "icon":"<i class='fas fa-prescription'></i>"
+        },
+        {
+            "id":"service_7",
+            "name":"Teeth Cleaning",
+            "image":"https://i.ibb.co/kJ97Y09/ser-2-550x500-1.jpg",
+            "describe":"Teeth cleaning (also known as prophylaxis, literally a preventive treatment of a disease) is a procedure for the removal of tartar (mineralized plaque) that may develop even with careful brushing and flossing, especially in areas that are difficult to reach in routine toothbrushing.",
+            "icon":"<i class='fas fa-user-md'></i>"
+        },
+        {
+            "id":"service_8",
+            "name":"Teeth Whitening",
+            "image":"https://i.ibb.co/sJdC7hV/ser-2-550x500.jpg",
+            "describe":"Many times, your Natural Teeth Whitening will be a part of a comprehensive plan to bring your smile back to life. Dr. Shihabur Rahman usually recommends Teeth Whitening treatment before any Cosmetic dental treatment.",
+            "icon":"<i class='fas fa-biohazard'></i>"
+        },
+        {
+            "id":"service_9",
+            "name":"Orthodontics",
+            "image":"https://i.ibb.co/6Fwtn5n/ser-3-550x500-1.jpg",
+            "describe":"Orthodontics is a dentistry specialty that addresses the diagnosis, prevention, and correction of mal-positioned teeth and jaws, and misaligned bite patterns. It may also address the modification of facial growth, known as dentofacial orthopedics. Abnormal alignment of the teeth and jaws is very common.",
+            "icon":"<i class='fas fa-shield-virus'></i>"
+        },
+        {
+            "id":"service_10",
+            "name":"Dental Implants",
+            "image":"https://i.ibb.co/FwZQZyZ/ser-3-550x500.jpg",
+            "describe":"Despite improvements in dental care, millions of Americans suffer tooth loss -- mostly due to tooth decay, periodontal disease, or injury. For many years, the only treatment options available for people with missing teeth were bridges and dentures. But, today, dental implants are available.",
+            "icon":"<i class='fas fa-dna'></i>"
+        },
+        {
+            "id":"service_11",
+            "name":"Cosmetic Dentistry",
+            "image":"https://i.ibb.co/D1w2VtP/ser-4-550x500.jpg",
+            "describe":"Cosmetic dentistry is generally used to refer to any dental work that improves the appearance (though not necessarily the functionality) of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance.[1] Many dentists refer to themselves as cosmetic dentists regardless of their specific education, specialty, training, and experience in this field.",
+            "icon":"<i class='fas fa-hospital-user'></i>"
+        },
+        {
+            "id":"service_12",
+            "name":"General Dentistry",
+            "image":"https://i.ibb.co/9HwT7wM/ser-5-550x500-1.jpg",
+            "describe":"General Dentistry is the award-winning, peer-reviewed journal of the Academy of General Dentistry. Published bimonthly, General Dentistry features clinical articles spanning the breadth of topics relevant to general dentists, including unique diagnostic case reports, novel solutions to common treatment dilemmas, evidence-based best practices, and the science to help you choose the best materials, technology and procedures for your patients and your practice.",
+            "icon":"<i class='fas fa-ambulance'></i>"
+        },
+        {
+            "id":"service_13",
+            "name":"Certified Dentist",
+            "image":"https://i.ibb.co/9HwT7wM/ser-5-550x500-1.jpg",
+            "describe":"A dentist who is board certified has gone through much more experience and training. When a dentist is board certified, it means they've gone above and beyond the basic degree requirements for dental licensure in order to best serve their patients, family, and friends",
+            "icon":"<i class='fas fa-bacteria'></i>"
+        },
+        {
+            "id":"service_14",
+            "name":"New Technology",
+            "image":"https://i.ibb.co/BqPQygG/ser-6-550x500.jpg",
+            "describe":"Discover Tomorrow's Innovative Technologies, Engineering, Products and Services. Safran develops innovative solutions to anticipate our customers' evolving requirements. Aéronautique. Défense. Espace. Types: Aviation, Space, Defense.",
+            "icon":"<i class='fas fa-teeth'></i>"
+        },
+        {
+            "id":"service_15",
+            "name":"Accept Insurance",
+            "image":"https://i.ibb.co/74wRMQm/services-details-550x500.jpg",
+            "describe":"Medical Insurance Usa - Quick And Easily Found At Asksly! Many Products. Easy Acces. Quick Results. Compare Products. Search and Discover. Find Easily. Types: Products Online, Instant Results, Big Variaty, 24/7 Accessible.",
+            "icon":"<i class=f'as fa-brain'></i>"
+        }
+    ],
+    "dentist":[
+        
+            {
+                "id":"dentist_1",
+                "name":"Dr. John Melborn",
+                "image":"https://i.ibb.co/gr7j3WQ/doctor-new-1.jpg",
+                "section":"Prosthodontics Dentist"
+            },
+            {
+                "id":"dentist_2",
+                "name":"Dr. Ena Dicrosa",
+                "image":"https://i.ibb.co/8PxPgT5/doctor-new-3.jpg",
+                "section":"Aesthetic Dentistry"
+            },
+            {
+                "id":"dentist_3",
+                "name":"Dr. Addison Smith",
+                "image":"https://i.ibb.co/khBWTgC/doctor-new-4.jpg",
+                "section":"Gastroenterologists"
+            },
+           
+            {
+                "id":"dentist_4",
+                "name":"Dr. Daisy Gabriela",
+                "image":"https://i.ibb.co/HD4R6FF/doctor-new-5.jpg",
+                "section":"Endocrinologists"
+            },
+            {
+                "id":"dentist_5",
+                "name":"Dr. Ronnie Aaron",
+                "image":"https://i.ibb.co/DDYbVLM/doctor-new-6.jpg",
+                "section":"Dermatologists"
+            },
+            {
+                "id":"dentist_6",
+                "name":"Dr. Edie Dee",
+                "image":" https://i.ibb.co/37gtwmN/doctor-new-7.jpg",
+                "section":"Cardiologists"
+            },
+            {
+                "id":"dentist_7",
+                "name":"Dr. Sarah Taylor",
+                "image":"https://i.ibb.co/HY0nWCZ/doctor-new-8.jpg",
+                "section":"Prosthodontics Dentist"
+            },
+            {
+                "id":"dentist_8",
+                "name":"Dr. Aiken Ward",
+                "image":"https://i.ibb.co/GnS36SR/doctor-new-9.jpg",
+                "section":"Aesthetic Dentistry"
+            }
+        
+    ],
+    "review":[
+        
+            {
+                "id":"review_1",
+                "name":"Sarah Taylor",
+                "image":"https://i.ibb.co/hffqV0f/review-1.jpg",
+                "job":"Web Developer"
+            },
+            {
+                "id":"review_2",
+                "name":"Aiken Ward",
+                "image":"https://i.ibb.co/P11FWcV/review-2.jpg",
+                "job":"Web Designer"
+            },
+            {
+                "id":"review_3",
+                "name":"Eachann Jhon",
+                "image":"https://i.ibb.co/ckKD2bQ/review-3.jpg",
+                "job":"UX/UI Designer"
+            },
+           
+            {
+                "id":"review_4",
+                "name":"Smith Jorge",
+                "image":"https://i.ibb.co/GscRnQT/review-4.jpg",
+                "job":"Founder"
+            },
+            {
+                "id":"review_5",
+                "name":"Aston Alison",
+                "image":"https://i.ibb.co/4WhRYZq/review-5.jpg",
+                "job":"Developer"
+            },
+            {
+                "id":"review_6",
+                "name":"John Jorge",
+                "image":"https://i.ibb.co/VCyGmkp/review-6.jpg",
+                "job":"Designer"
+            }
+        
+    ]
+}

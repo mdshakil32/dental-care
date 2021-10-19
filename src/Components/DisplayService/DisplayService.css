@@ -1,0 +1,17 @@
+.single-service{
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+}
+.service-icon i{
+    width: 80px;
+    height: 80px;
+    color: rgb(33, 186, 224);
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    border-radius: 50%;
+    margin-top: -40px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.219);
+}
