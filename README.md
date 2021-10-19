@@ -6,7 +6,7 @@ This is medical related website. Specifically a Dental Medical service website. 
 
 Also people can book their Appointment through this site.
 
-#Components I have used
+# Components I have used
 React js, raw css, bootstrap framework,fontawsome icons etc..
 
 Responsive done by botstrap
