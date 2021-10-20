@@ -5,7 +5,21 @@ import "./Register.css";
 
 const Register = () => {
     // register 
-    const { handleNameChange, handleEmailChnage, handlepasswordChnage, registerNewUser, setUserName } = useAuth();
+    const { loginWithGoogle,setUser,handleNameChange, handleEmailChnage, handlepasswordChnage, registerNewUser, setUserName } = useAuth();
+    // handleGoogleLogin
+    const handleGoogleLogin =()=>{
+        
+        
+        loginWithGoogle()
+        .then(result => {
+            // history.push(redirect_uri);
+            setUser(result.user);
+        })
+        .catch((error)=>{
+            console.log(error.message)
+            // setIsLoading(false);
+        } )
+    }
 
     const handleCreateAccount = (e) => {
         e.preventDefault();    
@@ -13,9 +27,7 @@ const Register = () => {
                 .then((result) => {
                     setUserName()   
                     window.location.reload();              
-                })
-
-        
+                }) 
     }
 
 
@@ -40,15 +52,13 @@ const Register = () => {
 
                     <button onClick={handleCreateAccount} type="submit" className="btn btn-danger w-100 mx-auto " value="Register" > Register</button>
                 </form>
-
-
-                <p className="mt-5"> Or Register using </p>
-
+                <p className="pt-3">Or login with</p>
+                
                 <div className="login-firebase">
-                    <button> <img src="https://i.ibb.co/9s3gmxK/download.png" alt="" />  </button>
-
-                    
+                    <button onClick={handleGoogleLogin}> <img src="https://i.ibb.co/9s3gmxK/download.png" alt="" />  </button>
                 </div>
+
+
                 </div>
             </div>
         </div>

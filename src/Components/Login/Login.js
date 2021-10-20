@@ -65,8 +65,6 @@ const Login = () => {
 
                 <div className="login-firebase">
                     <button onClick={handleGoogleLogin}> <img src="https://i.ibb.co/9s3gmxK/download.png" alt="" />  </button>
-
-                    
                 </div>
                 </div>
             </div>

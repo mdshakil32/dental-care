@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Banner.css';
 
 
@@ -20,7 +21,9 @@ const Banner = () => {
                   <span className="hash-tag"> <span className="text-info fw-bold">#</span> Keeping Teeth Cleaning</span>
                   <h1 className="fs-40 mt-3">The World Best <br /> <span className="text-info">Dental Specialist</span> <br /> Treatment</h1>
                   <p>We respect our patients more than anything. Your trust is everything to us. </p>
-                  <button className="btn btn-outline-dark fw-bold p-2">Consult A Dentist</button>
+                  <Link to="/consult" >
+                    <button className="btn btn-outline-dark fw-bold p-2">Consult A Dentist</button>
+                  </Link>
                 </div>
               </div>
               {/* banner second slide  */}
@@ -30,7 +33,9 @@ const Banner = () => {
                   <span className="hash-tag"> <span className="text-info fw-bold">#</span> Keeping Teeth Cleaning</span>
                   <h1 className="fs-40 mt-3">The World Best <br /> <span className="text-info">Dental Specialist</span> <br /> Treatment</h1>
                   <p>We respect our patients more than anything. Your trust is everything to us. </p>
-                  <button className="btn btn-outline-dark fw-bold p-2">Consult A Dentist</button>
+                  <Link to="/consult" >
+                    <button className="btn btn-outline-dark fw-bold p-2">Consult A Dentist</button>
+                  </Link>
                 </div>
               </div>
               
