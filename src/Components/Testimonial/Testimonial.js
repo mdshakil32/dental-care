@@ -5,7 +5,7 @@ const Testimonial = () => {
     const [testimonials,setTestimonials] = useState([]);
 
     useEffect(()=>{
-        fetch("https://mdshakil32.github.io/dental_care/data.json")
+        fetch("https://mdshakil32.github.io/dental-care-dataset/data.json")
         .then(res => res.json())
         .then(result => setTestimonials(result.review))      
     },[]);
